@@ -31,7 +31,11 @@ survey of ICN research 2014:
     3、PURSUIT：PURSUIT是欧盟的项目，它的架构完全替换了原有的IP协议栈，变成了可发布-订阅协议栈。该协议包括三个函数：rendezvous, topology management和forwarding。rendezvous函数把每一个订阅与发布相匹配，然后指挥topology management函数创造一条两者间的路由，最后通过forwarding函数完成数据的交换。
 }
 
-recent advances in information-centric networking based internet of things(ICN-IoT):
+recent advances in information-centric networking based internet of things(ICN-IoT):（这里面有些论文可以去搜一搜）
 {
-    ICN好，没了IP的缺点。ICN用给数据取名字避免了地址空间的不足。既能通过名字找数据还能把数据存在中间节点保证可用性。
+    ICN好，没了IP的缺点。ICN用给数据取名字避免了地址空间的不足。既能通过名字找数据还能把数据存在中间节点保证可用性、高校的节点传输与自认证的安全性保证。感觉就像是为IoT量身定做的。
+
+    IoT需求：可扩展性。移动性。安全与隐私性。命名与寻址（小设备就不要太长的名字 麻烦而且浪费），部分设备需要低延时。多样性与互用性（传感器在IoT中很重要，要支持各种传感器的射频协议，如4G、蓝牙、LTE、CRN等）。数据可用性（需要链路缓存来缓解移动与Dos攻击带来的危害）。高效能（IoT设备往往小巧低能耗，所以这套系统也不能太高耗能）。
+
+    基于IP协议簇已经有了一些低能耗高可靠的协议出现。例如XXXXXXX。（要写的话可以来这儿抄）但是不如ICN。利用缓存，ICN可以缓解网络拥塞的问题。且在ICN中自命名机制，可有利于IoT万物互联，将数以亿计的设备连接起来。同时ICN是接收者驱动的，更易控。
 }
