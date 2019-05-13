@@ -39,3 +39,8 @@ recent advances in information-centric networking based internet of things(ICN-I
 
     基于IP协议簇已经有了一些低能耗高可靠的协议出现。例如XXXXXXX。（要写的话可以来这儿抄）但是不如ICN。利用缓存，ICN可以缓解网络拥塞的问题。且在ICN中自命名机制，可有利于IoT万物互联，将数以亿计的设备连接起来。同时ICN是接收者驱动的，更易控。
 }
+
+ICN based Architecture for IoT:
+{
+    
+}
